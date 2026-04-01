@@ -112,7 +112,7 @@ Data is fetched from the public TVMaze REST API:
 
 | Endpoint | Usage |
 |---|---|
-| `GET /shows?page=N` | Paginated list of all shows (pages 0-4 fetched in parallel) |
+| `GET /shows?page=N` | Paginated list of all shows (pages 0 fetched in parallel) |
 | `GET /search/shows?q=query` | Full-text show search, returns `[{score, show}]` |
 
 No API key is required.
